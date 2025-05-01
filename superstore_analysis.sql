@@ -1,4 +1,4 @@
--- 🗃️ Database & Table Setup
+--  Database & Table Setup
 CREATE DATABASE IF NOT EXISTS superstore;
 USE superstore;
 
@@ -29,7 +29,7 @@ CREATE TABLE Orders (
 );
 
 
--- 📊 Data Exploration
+--  Data Exploration
 DESCRIBE Orders;
 
 SELECT ROUND(SUM(Sales) / 1000000, 2) AS Total_Sales_in_Millions FROM Orders;
@@ -41,7 +41,7 @@ SELECT COUNT(DISTINCT Sub_Category) AS Sub_Categories FROM Orders;
 
 
 
--- 🧹 Data Cleaning
+--  Data Cleaning
 ALTER TABLE Orders
 DROP COLUMN Row_ID,
 DROP COLUMN Segment,
@@ -63,7 +63,7 @@ WHERE Order_ID IS NULL OR Order_Date IS NULL OR Ship_Date IS NULL OR
 
 
 
--- 📈 Data Analysis Queries
+--  Data Analysis Queries
 
 -- 1. Total profit by year
 SELECT YEAR(Order_Date) AS Year, SUM(Profit) AS Total_Profit

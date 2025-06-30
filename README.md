@@ -1,4 +1,4 @@
-# Superstore SQL Analysis 🧠📊
+# Retail Sales SQL Analysis 🧠📊
 
 ### Project Overview 📚
 

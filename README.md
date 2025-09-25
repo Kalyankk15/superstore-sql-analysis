@@ -1,4 +1,4 @@
-# Retail Sales SQL Analysis 🧠📊
+# Retail Sales Analysis 🧠📊
 
 ### Project Overview 📚
 
@@ -263,6 +263,22 @@ ORDER BY t.Total_Profit DESC;
 
 **5. Top Customers Have Higher Average Order Value**
 - The top 10 customers not only contribute significantly to total revenue, but they also have a higher average order value. These customers are ideal targets for loyalty programs and personalized marketing.
+
+
+## 📈 Power BI Dashboard
+To complement the SQL analysis, I built an **interactive Power BI dashboard** for visualization and storytelling.
+<img width="1597" height="870" alt="Screenshot 2025-09-21 221627" src="https://github.com/user-attachments/assets/9f31d323-bc76-41cb-9702-fe7aa7f54a85" />
+
+This dashboard allows interactive exploration, making it easier to connect SQL insights to business decisions.
+
+
+### Dashboard Features:
+- **KPI Cards**: Total Sales, Total Profit, Total Orders, Unique Customers
+- **Line Chart**: Sales & Profit trends over time (Year-Month)
+- **Category & Sub-Category Bar Charts**: Top and bottom performers
+- **Map Hierarchy**: Drilldown from Region → State → City for sales and profit
+- **Shipping & Priority Analysis**: Orders by ship mode, delivery speed by priority
+- **Filters (Slicers)**: Year, Category
 
 
 ### Recommendations ✅
